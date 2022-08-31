@@ -6,8 +6,8 @@
 
 <?php include("links.php");?>
 
-<div class="container" id="main-content">
-	<h2>Fill in this form!</h2>
+<div class="container lead">
+	<p>Fill in this form!</p>
 	<?php
 // define variables and set to empty values
 $nameErr = $emailErr = $genderErr = $websiteErr = "";
