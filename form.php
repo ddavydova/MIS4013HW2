@@ -1,5 +1,4 @@
 
-<?php include("a_config.php");?>
 <!DOCTYPE html>
 <html>
 <head>
