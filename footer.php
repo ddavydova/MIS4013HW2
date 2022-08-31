@@ -1,10 +1,10 @@
 <div class="footer">
-
+<br>
 <?php
 echo "The time is " . date("h:i:sa");
 ?>
   
-  
+ <br>
 <?php
 $d1=strtotime("December 25");
 $d2=ceil(($d1-time())/60/60/24);
