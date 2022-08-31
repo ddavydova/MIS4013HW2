@@ -8,7 +8,7 @@
 <body>
 
 <?php include("header.php");?>
-<?php include("navigation.php");?>
+<?php include("links.php");?>
 
 <div class="container" id="main-content">
 	<h2>Welcome to my website!</h2>
