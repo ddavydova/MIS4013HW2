@@ -5,8 +5,8 @@
 
 <?php include("links.php");?>
 
-<div class="container lead center">
-	<p><b>Welcome to my website!<b></p>
+<div class="container lead">
+	<p>Welcome to my website!</p>
 	<p>Some content goes here!</p>
 </div>
 
