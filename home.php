@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html>
-<head>
-
-</head>
+<head> <?php include("header.php");?></head>
 <body>
 
-<?php include("header.php");?>
 <?php include("links.php");?>
 
 <div class="container" id="main-content">
