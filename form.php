@@ -1,12 +1,9 @@
 
 <!DOCTYPE html>
 <html>
-<head>
-	<?php include("head-tag-contents.php");?>
-</head>
+<head> <?php include("header.php");?></head>
 <body>
 
-<?php include("header.php");?>
 <?php include("links.php");?>
 
 <div class="container" id="main-content">
