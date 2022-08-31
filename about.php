@@ -1,3 +1,4 @@
+
 <?php include("a_config.php");?>
 <!DOCTYPE html>
 <html>
@@ -5,7 +6,13 @@
 	<?php include("head-tag-contents.php");?>
 </head>
 <body>
-<?php
+
+<?php include("header.php");?>
+<?php include("navigation.php");?>
+
+<div class="container" id="main-content">
+	<h2>Fill in this form!</h2>
+	<?php
 // define variables and set to empty values
 $nameErr = $emailErr = $genderErr = $websiteErr = "";
 $name = $email = $gender = $comment = $website = "";
@@ -97,7 +104,6 @@ echo $comment;
 echo "<br>";
 echo $gender;
 ?>
-
 </div>
 
 <?php include("footer.php");?>
