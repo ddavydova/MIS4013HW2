@@ -7,7 +7,6 @@
 
 <div class="container lead">
 	<p>Welcome to my website!</p>
-	<p>Some content goes here!</p>
 </div>
 
 <?php include("footer.php");?>
