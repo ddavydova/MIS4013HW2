@@ -5,6 +5,7 @@
 <div class="display-4">
 <br>
 <?php
+date_default_timezone_set("America/Dallas");
 echo "The time is " . date("h:i:sa");
 ?>
   
