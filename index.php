@@ -5,7 +5,7 @@
 
 <?php include("links.php");?>
 
-<div class="container display-1">
+<div class="container display-10">
       <?php include("getfunction.php");?>
       </div>
 
