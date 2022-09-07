@@ -4,12 +4,13 @@
 <body>
 
 <?php include("links.php");?>
-
-<div class="container display-5">
+<br>
+<br>
+<div class="container display-6">
       <?php include("getfunction.php");?>
       </div>
 
-
+<br>
 <?php include("footer.php");?>
 
 </body>
