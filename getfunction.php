@@ -1,8 +1,14 @@
 <html>
 <body>
 
-Welcome <?php echo $_GET["name"]; ?><br>
-Your email address is: <?php echo $_GET["email"]; ?>
+  <?php
+   if( $_GET["name"] || $_GET["age"] ) {
+      echo "Welcome ". $_GET['name']. "<br />";
+      echo "You are ". $_GET['age']. " years old.";
+      
+      exit();
+   }
+?>
 
 </body>
 </html>
