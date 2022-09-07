@@ -7,7 +7,7 @@
 
 <div class="container display-5">
       </div>
-
+<?php include("getfunction.php");?>
 
 <?php include("footer.php");?>
 
