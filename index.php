@@ -5,7 +5,6 @@
 
 <?php include("links.php");?>
 
-<div class="container display-5">
 
       <form action = "<?php $_PHP_SELF ?>" method = "GET">
          Name: <input type = "text" name = "name" />
@@ -15,7 +14,6 @@
       
      <?php include("getfunction.php");?>
 
-</div>
 
 <?php include("footer.php");?>
 
