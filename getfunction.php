@@ -1,4 +1,12 @@
-<div class="container display-6">
-Welcome <?php echo $_GET["name"]; ?>.<br />
-You are <?php echo $_GET["age"]; ?> years old!
-</div>
+<?php
+
+$bg_color = htmlspecialchars($_GET['bg']);
+$text = htmlspecialchars($_GET['text']);
+
+?>
+
+<html>
+  <body style="background: <?php echo $bg_color ?>">
+    <h1><?php echo $text ?></h1>
+  </body>
+</html>
