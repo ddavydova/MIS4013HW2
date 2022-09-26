@@ -1,5 +1,4 @@
-<form action="welcome.php" method="get">
-Name: <input type="text" name="name" />
-Age: <input type="text" name="age" />
-<input type="submit" />
-</form> 
+<div class="container display-6">
+Welcome <?php echo $_GET["name"]; ?>.<br />
+You are <?php echo $_GET["age"]; ?> years old!
+</div>
