@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head> <?php include("header.php");?></head>
+<?php include("header.php");?>
 <body>
 
 <?php include("links.php");?>
