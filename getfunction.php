@@ -1,7 +1,5 @@
 <?php
 
-    // Below code checks if Name and Age have values. 
-
    if(isset($_GET["name"]) || isset($_GET["age"]) ) {
 
       echo "Hi ". $_GET['name']. "<br />";
