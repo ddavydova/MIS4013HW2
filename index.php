@@ -3,9 +3,12 @@
 <?php include("links.php");?>
 <br>
 <br>
-<div class="container display-6">
-      <?php include("getfunction.php");?>
-      </div>
+<?php include("getfunction.php");?>
+<form action="welcome.php" method="get">
+Name: <input type="text" name="name" />
+Age: <input type="text" name="age" />
+<input type="submit" />
+</form>
 
 
 <br>
