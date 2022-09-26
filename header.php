@@ -6,4 +6,4 @@
 <div class="mx-auto display-3" style="width: 200px;">
 </div>
 <body>
-</head><p>Welcome!</p></head>
+<p>Welcome!</p>
