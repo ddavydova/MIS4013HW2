@@ -2,9 +2,7 @@
 <?php include("links.php");?>
 <br>
 <br>
-<?php
-echo "Study " . $_GET['subject'] . " at " . $_GET['web'];
-?>
+<?php include("getfunction.php");?>
 <br>
 <?php include("footer.php");?>
 
