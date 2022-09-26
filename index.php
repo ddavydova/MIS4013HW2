@@ -2,7 +2,9 @@
 <?php include("links.php");?>
 <br>
 <br>
-<?php echo 'Hello ' . htmlspecialchars($_GET["name"]) . '!';?>
+<?php
+echo "Study " . $_GET['subject'] . " at " . $_GET['web'];
+?>
 <br>
 <?php include("footer.php");?>
 
